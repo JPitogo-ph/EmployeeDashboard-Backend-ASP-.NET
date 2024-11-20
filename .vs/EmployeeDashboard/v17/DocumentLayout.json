@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EmployeeDashboard\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EmployeeDashboard\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T08:19:35.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
