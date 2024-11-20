@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EmployeeDashboard\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EmployeeDashboard\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeDashboard\\Program.cs",
+              "ToolTip": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Program.cs",
+              "RelativeToolTip": "EmployeeDashboard\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:14:42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeDashboard\\appsettings.json",
+              "ToolTip": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\appsettings.json",
+              "RelativeToolTip": "EmployeeDashboard\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-20T08:19:35.207Z",
+              "WhenOpened": "2024-11-20T10:02:50.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeDashboard\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EmployeeDashboard\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:16:18.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Models\\Employees.cs",
+              "RelativeDocumentMoniker": "EmployeeDashboard\\Models\\Employees.cs",
+              "ToolTip": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Models\\Employees.cs",
+              "RelativeToolTip": "EmployeeDashboard\\Models\\Employees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:39:39.115Z",
               "EditorCaption": ""
             }
           ]
