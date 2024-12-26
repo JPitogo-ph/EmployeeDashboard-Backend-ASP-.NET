@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\migrations\\20241120142223_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\migrations\\20241120142223_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|c:\\users\\james\\desktop\\employeedashboard backend\\employeedashboard\\employeedashboard\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1D32077-CA01-4746-87A0-2835CF134D53}|EmployeeDashboard\\EmployeeDashboard.csproj|solutionrelative:employeedashboard\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +42,7 @@
               "RelativeToolTip": "EmployeeDashboard\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:25:23.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:25:23.515Z"
             },
             {
               "$type": "Document",
@@ -55,12 +54,11 @@
               "RelativeToolTip": "EmployeeDashboard\\Controllers\\EmployeesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:11:34.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:11:34.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "EmployeeDashboard\\Controllers\\WeatherForecastController.cs",
@@ -68,21 +66,19 @@
               "RelativeToolTip": "EmployeeDashboard\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:10:30.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:10:30.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "20241120142223_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Migrations\\20241120142223_InitialCreate.cs",
               "RelativeDocumentMoniker": "EmployeeDashboard\\Migrations\\20241120142223_InitialCreate.cs",
               "ToolTip": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Migrations\\20241120142223_InitialCreate.cs",
               "RelativeToolTip": "EmployeeDashboard\\Migrations\\20241120142223_InitialCreate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T14:22:23.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T14:22:23.983Z"
             },
             {
               "$type": "Document",
@@ -92,7 +88,7 @@
               "RelativeDocumentMoniker": "EmployeeDashboard\\Program.cs",
               "ToolTip": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\Program.cs",
               "RelativeToolTip": "EmployeeDashboard\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T14:14:42Z",
               "EditorCaption": ""
