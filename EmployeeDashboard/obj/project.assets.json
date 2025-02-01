@@ -5157,11 +5157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\EmployeeDashboard.csproj",
+      "projectUniqueName": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard.csproj",
       "projectName": "EmployeeDashboard",
-      "projectPath": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\EmployeeDashboard.csproj",
+      "projectPath": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard.csproj",
       "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\EmployeeDashboard\\obj\\",
+      "outputPath": "C:\\Users\\James\\Desktop\\EmployeeDashboard Backend\\EmployeeDashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
