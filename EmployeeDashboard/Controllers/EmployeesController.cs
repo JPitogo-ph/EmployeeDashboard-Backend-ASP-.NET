@@ -23,5 +23,26 @@ namespace EmployeeDashboard.Controllers
                             .ToListAsync();
             return Ok(employees);
         }
+        
+        [HttpGet("{id}")]
+
+        public async Task<ActionResult<Employee>> GetEmployeeAsync(int id)
+        {
+            var employee = await _context.Employees.FindAsync(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return employee;
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Employee>> PostEmployeeAsync(Employee employee)
+        {
+            _context.Employees.Add(employee);
+            await _context.SaveChangesAsync();
+            
+            return CreatedAtAction(nameof(GetEmployeeAsync), new { id = employee.EmployeeId }, employee);
+        }
     }
 }
