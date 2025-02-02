@@ -8,7 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(options =>
 {
     options.SuppressAsyncSuffixInActionNames = false;
-});
+})
+.AddNewtonsoftJson();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: "AngularFrontend",
