@@ -84,7 +84,8 @@ namespace EmployeeDashboard.Controllers
             {
                 return BadRequest(ModelState);
             }
-
+            await dbContext.SaveChangesAsync();
+            
             return NoContent();
         }
 
