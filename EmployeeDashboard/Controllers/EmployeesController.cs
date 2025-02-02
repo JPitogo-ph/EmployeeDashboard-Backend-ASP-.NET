@@ -36,6 +36,12 @@ namespace EmployeeDashboard.Controllers
         [HttpPost]
         public async Task<ActionResult<Employee>> PostEmployeeAsync([FromBody] Employee employee)
         {
+            var doesEmployeeExist = dbContext.Employees.Any(e => e.EmployeeId == employee.EmployeeId);
+            if (doesEmployeeExist)
+            {
+                return Conflict($"Employee with id: {employee.EmployeeId} already exists");
+            }
+            
             dbContext.Employees.Add(employee);
             await dbContext.SaveChangesAsync();
             
@@ -52,9 +58,10 @@ namespace EmployeeDashboard.Controllers
             
             if (id != employee.EmployeeId)
             {
-                return BadRequest($"Input Id {id} does not match {employee.EmployeeId}");
+                return Conflict($"Input Id {employee.EmployeeId} does not match existing id: {id}");
             }
             dbContext.Entry(employee).State = EntityState.Modified;
+            //Manually change state, assumes all fields are updated
             await dbContext.SaveChangesAsync();
 
             return NoContent();
