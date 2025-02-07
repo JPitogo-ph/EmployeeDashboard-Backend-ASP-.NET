@@ -41,6 +41,11 @@ namespace EmployeeDashboard.Controllers
             {
                 return Conflict($"Employee with id: {employee.EmployeeId} already exists");
             }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             
             dbContext.Employees.Add(employee);
             await dbContext.SaveChangesAsync();
@@ -60,6 +65,12 @@ namespace EmployeeDashboard.Controllers
             {
                 return Conflict($"Input Id {employee.EmployeeId} does not match existing id: {id}");
             }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            
             dbContext.Entry(employee).State = EntityState.Modified;
             //Manually change state, assumes all fields are updated
             await dbContext.SaveChangesAsync();
