@@ -32,9 +32,9 @@ namespace EmployeeDashboard.Models
         public int Salary {  get; set; }
         
         [Range(0, 100.00)]
-        public Decimal CommissionPct { get; set; }
+        public Decimal? CommissionPct { get; set; }
         
-        public int ManagerId { get; set; }
+        public int? ManagerId { get; set; }
         
         public int DepartmentId { get; set; }
 
