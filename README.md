@@ -20,6 +20,6 @@ That project was mainly a frontend learning experience, so please don't expect m
 3. **Configuration**  
 - Please configure your connection string for MSSQL in appsettings.json  
 - Run `dotnet ef database update` if on the .NET cli, or whatever equivalent command you need in order to run the migration and setup the database and table.  
-- Please seed the employee table in the db using the employees.csv file in this repo.  
+- Please seed the employee table in the db using the employees.csv file from the following gist: https://gist.github.com/kevin336/acbb2271e66c10a5b73aacf82ca82784.  
 4. **Run the Project**  
 `dotnet run`  
