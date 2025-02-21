@@ -78,27 +78,28 @@ namespace EmployeeDashboard.Controllers
             return NoContent();
         }
 
-        [HttpPatch("{id}")]
-        public async Task<IActionResult> PatchEmployeeAsync(int id, [FromBody] JsonPatchDocument<Employee>? patchDocument) //Right you need parameter binding attrs for complex types
-        {
-            if (patchDocument is null)
-            {
-                return BadRequest("Invalid document");
-            }
-            var employee = await dbContext.Employees.FindAsync(id);
-            if (employee is null)
-            {
-                return NotFound($"Employee with id: {id} was not found");
-            }
-            patchDocument.ApplyTo(employee, ModelState);
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            await dbContext.SaveChangesAsync();
-            
-            return NoContent();
-        }
+        //I've been informed no one actually uses this, comment it out without deleting so I can reference it in the future.
+        // [HttpPatch("{id}")]
+        // public async Task<IActionResult> PatchEmployeeAsync(int id, [FromBody] JsonPatchDocument<Employee>? patchDocument) //Right you need parameter binding attrs for complex types
+        // {
+        //     if (patchDocument is null)
+        //     {
+        //         return BadRequest("Invalid document");
+        //     }
+        //     var employee = await dbContext.Employees.FindAsync(id);
+        //     if (employee is null)
+        //     {
+        //         return NotFound($"Employee with id: {id} was not found");
+        //     }
+        //     patchDocument.ApplyTo(employee, ModelState);
+        //     if (!ModelState.IsValid)
+        //     {
+        //         return BadRequest(ModelState);
+        //     }
+        //     await dbContext.SaveChangesAsync();
+        //     
+        //     return NoContent();
+        // }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployeeAsync(int id)
